@@ -1,0 +1,23 @@
+.fotoPersonal{
+    width: 60%;
+    float:right;
+}
+.fotoPersonal img {
+  width: 800px; 
+  height: auto;
+  border-radius: 10px;
+}
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 50px;
+}
+.title h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+#about-me{
+    margin-top: 100px;
+}

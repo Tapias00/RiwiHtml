@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <meta name="description" content="Personal portfolio of Andres Garcia as a Riwi developer">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="title">
+            <h1>Andres Garcia - Riwi Developer</h1>
+        </div>
+        
+        <div class="fotoPersonal">
+            <img src="/img/FotoPersonal.jpg" alt="Andres Garcia´s photo">
+        </div>
+    </div>
+    <div id="about-me">
+        <section>
+            <h2>Aboute me</h2>
+            <p>Hello, I am Andres Garcia.</p>
+            <p>I am passionate about Technology, cibersegurity and development.</p>
+        </section>
+    </div>
+    <ul>
+        <li><b>Frontend lenguages</b></li>
+        <li>HTML,CSS</li>
+        <li><b>Backend lenguages</b></li>
+        <li>C#,Python,JS</li>
+        <li><b>Databases</b></li>
+        <li>SQL</li>
+        <li><b>lenguages</b></li>
+        <li>Español</li>
+        <li>Ingles in proces</li>
+    </ul>
+    <section>
+        <h2 id="projects">Projects</h2>
+        <h3>Project 1: Holistica Website</h3>
+        <h3>Project 2: Portfolio Website</h3>
+        <p>These are my proyects where i have build a personal portfolio and a Website using html and css</p>
+    </section>
+    <img src="/img/Portfolio.PNG" alt="Project Portafolio image" width="300">
+    <img src="/img/Holistica Pag principal.PNG" alt="Project Holistica Website" width="300">
+    <table>
+        <tr>
+            <th>Holistica</th>
+            <th>HTML, CSS, Boostrap</th>
+            <th><a href="#"></a></th>
+        </tr>
+        <tr>
+            <th>Portfolio</th> 
+            <th>HTML, CSS</th>
+            <th><a href="#">View Project</a></th>
+        </tr>
+    </table>
+    <form id="contact" action="/send" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="4" required></textarea>
+
+        <input type="submit" value="send">
+    </form>
+    <a href="https://github.com/alexx4316" target="_blank">GitHub</a>
+    <nav>
+        <a href="#about-me">About me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</body>
+</html>
