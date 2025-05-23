@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <meta name="description" content="Personal portfolio of Andres Garcia as a Riwi developer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#about-me">About me</a>
+            <a href="#contact">contact</a>
+            <a href="#technologies">Technologies</a>
+        </nav>
+        
+    </header>
+    <main>
+        <section id="home" class="my-section">
+                <div class="cont">
+                    <div>
+                        <p>Hello, My Name is</p>
+                        <h1>Andres Garcia</h1>
+                        <h2>Riwi Web Developer</h2>
+                    </div>
+                </div>
+        </section>
+
+        <section class="about" id="about-me">
+            <div class="main">
+                <img src="./assets/img/foto1.jpg" alt="about-me">
+                    <div class="about-text">
+                        <h1>About Me</h1>
+                        <h2>Who Am I</h2>
+                        <h5><span>Hello, I am Andres Garcia.</span></h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nostrum voluptatibus reprehenderit a asperiores incidunt explicabo magnam vel eum adipisci necessitatibus, atque dolor fuga, totam iste repellat? Aspernatur quas blanditiis libero maxime maiores itaque exercitationem odit labore, dolores omnis tempore!</p>
+                        <a href="https://github.com/alexx4316" target="_blank"><button type="button">GitHub</button></a>
+                        <a href="./assets/files/HV-Andres Gonzalez.pdf" download><button type="button" class="cv">My CV</button></a>
+                    </div>
+            </div>
+        </section>
+
+        <section id="technologies" class="technologies">
+            <div>
+                <div>
+                    <h1>Technologies I Use</h1>
+                </div>
+    
+                    <ul>
+                        <li>
+                            <span><i class="fa-brands fa-html5"></i></span>
+                            <b>Frontend languages:</b> HTML, CSS
+                        </li>
+                        <li>
+                            <span><i class="fa-brands fa-python"></i></span>
+                            <b>Backend languages:</b> C#, Python, JS
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-database"></i></span>
+                            <b>Databases:</b> SQL
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-language"></i></span>
+                            <b>Languages:</b> Español, Inglés en proceso
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <p><b>These are my projects where I have built a personal portfolio and a Website using HTML and CSS</b></p>
+            <div class="container">
+                <h3>Project 1: Holistica Website</h3>
+                <h3>Project 2: Portfolio Website</h3>
+            </div>
+            <div class="img-projects">
+                <img src="./assets/img/Holistica Pag principal.PNG" alt="Project Portfolio image">
+                <img src="./assets/img/Portfolio.PNG" alt="Project Holistica Website">
+            </div>
+            <table>
+                <tr>
+                    <th>Holistica</th>
+                    <th>HTML, CSS, Bootstrap</th>
+                    <th><a href="#">View Project</a></th>
+                </tr>
+                <tr>
+                    <th>Portfolio</th>
+                    <th>HTML, CSS</th>
+                    <th><a href="#">View Project</a></th>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contact">
+            <form action="/send" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" rows="4" required></textarea>
+            <input type="submit" value="Send">
+        </form>
+        </section>
+    </main>
+</body>
+</html>
