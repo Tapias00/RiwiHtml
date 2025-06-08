@@ -1,0 +1,147 @@
+div{
+    color: blue;
+}
+.highlight{
+    color: red;
+}
+#special{
+    color: green;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border: 1px solid black;
+    border-radius:15px;
+    width:100vw;
+}
+
+header h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+header p{
+    font-size: 20px;
+    text-align: center;
+}
+
+section{
+    border: 1px solid black;
+    border-radius:15px;
+    width:100vw;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    border:  1px solid black;
+    color: black;
+    width: 400px;
+    height: 200px;
+    align-items: center;
+}
+
+.content h2{
+    padding: 70px 0 0 0;
+}
+
+.box-highlight{
+  background-color: white;
+  transition: background-color 0.5s;
+}
+.box-highlight:hover{
+    background-color: gold;
+}
+
+.visual-effects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.effects{
+    border: 1px solid black;
+    width: 500px;
+    border-radius: 15px ;
+    box-shadow: 0 10px 10px 0;
+    transform-origin: 50% 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.effects:hover{
+    transform: rotatey(-10deg);
+}
+
+footer{
+    border: 1px solid black;
+    border-radius:15px;
+}
+
+.interactivity{
+    width: 700px;
+    height: 210;
+    text-align: center;
+}
+.interactivity:hover{
+    background-color: red;
+}
+
+body{
+    background-color: antiquewhite;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.box{
+    background-color: #ffff;
+    border: 2px solid #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 10px;
+}
+
+.inline-block{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+.fixed-box{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    padding: 10px;
+}
+.rotate-box{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    transform: rotate(45deg);
+}
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.box::before{
+    content: "New!";
+    color: red;
+    font-weight: bold;
+}
+.fade-in{
+    animation: fade 2s ease-in-out;
+}
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

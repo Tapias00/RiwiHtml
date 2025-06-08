@@ -89,8 +89,7 @@ nav a:hover{
   background-image: url(./assets/img/lineas_codigo.jpg);
   background-size: cover;
   background-position: center;
-  opacity: 0.1;
-  z-index: 0;
+  opacity: 0.2;
 }
 /*about me*/
 .about{

@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  background: url(../assets/img/banner.jpg) center/ cover, no-repeat;
+  height: 600px;
+  gap: 150px;
+  color: white;
+  align-items: center;
+}
+
+.header{
+  margin-top: 20px;
+  width: 80%;
+  height: 80px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header a{
+  text-decoration: none;
+  color: white;
+}
+
+.header h1{
+  font-size: 50px;
+}
+
+nav{
+  display: flex;
+  gap: 50px;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.header-content{
+  text-align: center;
+}
+
+.header-content h2{
+  font-size: 40px;
+}
+
+.header-content p{
+  font-size: 20px;
+}
+
+.main{
+  display: flex;
+  margin: 0 170px;
+  gap: 50px;
+}
+
+.main2{
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+.main-content{
+  margin: 20px 0;
+  border-bottom: 1px solid;
+  padding-bottom: 20px;
+}
+
+.main-content button{
+  background-color: black;
+  height: 60px;
+  width: 180px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  color: white;
+  font-weight: 800;
+}
+
+.main-content p{
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.main img{
+  width: 740px;
+  height: 520px;
+}
+
+main h3{
+  padding: 50px 0;
+  font-size: 35px;
+}
+
+main h4{
+  font-size: 30px;
+}
+
+aside{
+  margin-top: 40px;
+  height: 600px;
+  width: 500px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+
+}
+aside h3{
+  font-size: 30px;
+}
+
+aside h2{
+  font-size: 25px;
+}
+
+.aside-content{
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+ font-size: 20px;
+}
+
+.aside-content button{
+  background-color: chocolate;
+  width: 180px;
+  height: 60px;
+  box-sizing: border-box;
+  color: white;
+  font-size: 15px;
+}
+
+.footer{
+  display: flex;
+  box-sizing: border-box;
+  background-color: black;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.footer h2{
+  font-size: 50px;
+}
+
+footer{
+  height: 120px;
+  width: 80%;
+  display: flex;
+  color: white;
+  padding: 0 100px;
+  align-items: center;
+  justify-content: space-between;
+}

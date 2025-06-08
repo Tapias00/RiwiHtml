@@ -1,0 +1,48 @@
+.contact{
+    margin: 0 150px;
+}
+
+.contact h2{
+    margin: 30px 0;
+    text-align: center;
+}
+
+.img{
+    height: 30rem;
+    background-image: url(../assets/img/nosotros.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+form{
+    background-color: white;
+    margin: -64px auto 0 auto;
+    width: 85%;
+    padding: 70px;
+}
+
+.campo{
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+input{
+    width: 90%;
+    align-items: center;
+}
+
+textarea{
+    height: 200px;
+    width: 90%;
+}
+
+button{
+    height: 40px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}

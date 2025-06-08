@@ -1,0 +1,14 @@
+.Card{
+    width: auto;
+    height: auto;
+    background-color: grey;
+    border-radius: 14px;
+    border: 1px solid #000000;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 150px 600px;
+    gap: 20px;
+}
